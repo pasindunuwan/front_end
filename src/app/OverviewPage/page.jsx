@@ -2,9 +2,10 @@
 
 import { BarChart3, MessageSquare } from "lucide-react";
 
-export default function Home() {
+export default function OverviewPage() {
   return (
     <div className="min-h-screen bg-gray-100 p-6 space-y-6">
+
       {/* Top Navigation Tabs */}
       <div className="flex items-center gap-3 overflow-x-auto pb-2">
         {[
@@ -36,6 +37,7 @@ export default function Home() {
 
       {/* Stat Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
         {/* Total Tweets */}
         <div className="bg-white p-5 rounded-xl shadow border border-gray-200">
           <div className="flex justify-between">
@@ -78,6 +80,7 @@ export default function Home() {
 
       {/* Sentiment Chart + Emotion Distribution */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
         {/* Sentiment Trends */}
         <div className="bg-white p-6 rounded-xl shadow border border-gray-200">
           <p className="font-semibold mb-3">📉 Sentiment Trends</p>
